@@ -107,7 +107,7 @@
   display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer .button {
   width: 20rem;
   height: 5.6rem;
   background: var(--color-secondary);
@@ -127,8 +127,14 @@
   transition: background 0.2s;
 }
 
-.teacher-item footer button:hover {
+.teacher-item footer .button:hover {
   background: var(--color-secondary-dark);
+}
+
+#page-study main .no-results {
+  max-width: 30rem;
+  margin: 10rem auto;
+  text-align: center;
 }
 
 @media (min-width: 700px) {
@@ -143,7 +149,7 @@
 
   #search-teachers {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 120px 80px;
     gap: 16px;
 
     position: absolute;
@@ -169,13 +175,13 @@
     margin-left: 16px;
   }
 
-  .teacher-item footer button {
+  .teacher-item footer .button {
     width: 245px;
     font-size: 16px;
     justify-content: center;
   }
 
-  .teacher-item footer button img {
+  .teacher-item footer .button img {
     margin-right: 16px;
   }
 }
