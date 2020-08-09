@@ -63,6 +63,9 @@
 
 .buttons-container a.study:hover {
   background: var(--color-primary-light);
+
+  transform: translateY(-10px);
+  transition: all 0.4s;
 }
 
 .buttons-container a.give-classes {
@@ -77,6 +80,9 @@
 
 .buttons-container a.give-classes:hover {
   background: var(--color-secondary-dark);
+
+  transform: translateY(-10px);
+  transition: all 0.4s;
 }
 
 .total-connections {
@@ -91,9 +97,13 @@
   margin-left: 0.8rem;
 }
 
-@media (max-width: 699px) {
+@media (max-width: 1099px) {
   :root {
     font-size: 40%;
+  }
+
+  .hero-image {
+    height: 45rem;
   }
 }
 

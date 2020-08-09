@@ -1,13 +1,13 @@
 
 :root {
   --color-background: #F0F0F7;
-  --color-primary-lighter: #9871F5;
-  --color-primary-light: #916BEA;
-  --color-primary: #8257E5;
-  --color-primary-dark: #774DD6;
-  --color-primary-darker: #6842c2;
-  --color-secondary: #04D361;
-  --color-secondary-dark: #04BF58;
+  --color-primary-lighter: #18c413;
+  --color-primary-light: #148f10;
+  --color-primary: #187a15;
+  --color-primary-dark: #146611;
+  --color-primary-darker: #125c10;
+  --color-secondary: #7159c1;
+  --color-secondary-dark: #544585;
   --color-title-in-primary: #FFFFFF;
   --color-text-in-primary: #D4C2FF;
   --color-text-title: #32264D;
@@ -18,7 +18,6 @@
   --color-button-text: #FFFFFF;
   --color-box-base: #FFFFFF;
   --color-box-footer: #FAFAFC;
-  --color-small-info: #C1BCCC;
 
   font-size: 60%; /* controle das medidas rem */
 }

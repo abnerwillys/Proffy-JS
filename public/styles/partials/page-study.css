@@ -129,6 +129,9 @@
 
 .teacher-item footer .button:hover {
   background: var(--color-secondary-dark);
+
+  transform: translateY(-10px);
+  transition: all 0.4s;
 }
 
 #page-study main .no-results {

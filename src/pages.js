@@ -34,6 +34,10 @@ async function pageStudy(request, response) {
     const db = await Database
     const proffys = await db.all(query)
 
+    proffys.map((proffy) => {
+      proffy.subject = getSubject(proffy.subject)
+    })
+
     return response.render('study.html', { proffys, filters, subjects, weekdays })
   
   } catch (error) {
@@ -42,22 +46,61 @@ async function pageStudy(request, response) {
 }
 
 function pageGiveClasses(request, response) {
-  const data = request.query
+  return response.render('give-classes.html', { subjects, weekdays })
+}
+
+async function saveClasses(request, response) {
+  const createProffy = require('./database/createProffy')
   
-  const isNotEmpty = Object.keys(data).length > 0
-  if (isNotEmpty) {
-    data.subject = getSubject(data.subject)
-
-    proffys.push(data)
-
-    return response.redirect('/study')
+  const {
+    name,
+    avatar,
+    whatsapp,
+    bio,
+    subject,
+    cost,
+    weekday,
+    time_from,
+    time_to,
+  } = request.body
+  
+  const proffyValue = {
+    name,
+    avatar,
+    whatsapp,
+    bio,
   }
 
-  return response.render('give-classes.html', { subjects, weekdays })
+  const classValue = {
+    subject,
+    cost,
+  }
+
+  const classScheduleValues = weekday.map((weekday, index) => {
+    return {
+      weekday,
+      time_from: convertHoursToMinutes(time_from[index]),
+      time_to: convertHoursToMinutes(time_to[index])
+    }
+  })
+
+  try {
+    const db = await Database
+    await createProffy(db, { proffyValue, classValue, classScheduleValues })
+    
+    let queryString = "?subject=" + subject
+    queryString += "&weekday=" + weekday[0]
+    queryString += "&time=" + time_from[0]
+
+    return response.redirect('/study' + queryString)
+  } catch (error) {
+    console.log(error)
+  }
 }
 
 module.exports = {
   pageLanding,
   pageStudy,
-  pageGiveClasses
+  pageGiveClasses,
+  saveClasses
 }

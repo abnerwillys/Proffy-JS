@@ -46,7 +46,7 @@
 }
 
 #page-give-classes fieldset legend button:hover {
-  transform: translateY(-2px);
+  transform: translateY(-5px);
   color: var(--color-primary-dark);
 }
 
@@ -83,6 +83,10 @@
   margin-right: 2rem;
 }
 
+#page-give-classes main footer button span {
+  margin-right: 2rem;
+}
+
 #page-give-classes main footer button {
   width: 100%;
   height: 5.6rem;
@@ -106,6 +110,9 @@
 
 #page-give-classes main footer button:hover {
   background: var(--color-secondary-dark);
+
+  transform: translateY(-10px);
+  transition: all 0.4s;
 }
 
 .schedule-item + .schedule-item {
