@@ -45,7 +45,7 @@
 
 O projeto **Proffy** de estudos online, onde é possivel conectar alunos com professores.
 
-Esse projeto foi proposto durante a **Next Level Week #2** na *trilha Discovery*, lecionado pela **@Rocketseat**. O projeto foi desenvolvido em diversas etapas conforme o decorrer do evento, com o objetivo de apresentar os principais pontos de um projeto real desenvolvido na stack JavaScript.
+Esse projeto foi proposto durante a **Next Level Week #2** na *trilha Discovery (confira a Trilha OmniStack [clicando Aqui](https://github.com/abner-starkasty/Proffy-Typescript))*, lecionado pela **@Rocketseat**. O projeto foi desenvolvido em diversas etapas conforme o decorrer do evento, com o objetivo de apresentar os principais pontos de um projeto real desenvolvido na stack JavaScript.
 
 Neste projeto foi utilizado a metodologia 📲 **Mobile First.** 📲
 
