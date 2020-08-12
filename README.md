@@ -5,7 +5,7 @@
 </h1>
 
 
-<h4 align="center" style="color: orange;">Trilha Discovery</h4>
+<h4 align="center">Trilha Discovery</h4>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abnerwillys/">
@@ -50,9 +50,8 @@ Esse projeto foi proposto durante a **Next Level Week #2** na *trilha Discovery*
 Neste projeto foi utilizado a metodologia 📲 **Mobile First.** 📲
 
 <p align="center">
-    <img src="./public/images/readme/banner.PNG" width="400px">
-    <img src="./public/images/readme/banner2.PNG" width="400px">
-    <img src="./public/images/readme/banner3.PNG" width="400px">
+    <img src="./public/images/readme/banner.PNG" height="400px">
+    <img src="./public/images/readme/banner2.PNG" height="400px"><img src="./public/images/readme/banner3.PNG" height="400px">
 </p>
 
 #### 🎬 Breve vizualização
