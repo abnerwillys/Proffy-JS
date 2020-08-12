@@ -58,7 +58,7 @@ Neste projeto foi utilizado a metodologia 📲 **Mobile First.** 📲
 
 <p align="center">
     <a href="https://www.youtube.com/watch?v=64nT16NwF04&feature=youtu.be">
-        <img src="/web/public/proffy-video.PNG" width="600px">
+        <img src="./public/images/readme/proffy-video.PNG" width="600px">
     </a>
 </p>
 
