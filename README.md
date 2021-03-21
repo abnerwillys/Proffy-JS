@@ -42,9 +42,13 @@
 ---
 ### 🔖 Sobre
 
-O projeto **Proffy** de estudos online, onde é possivel conectar alunos com professores.
+O projeto **Proffy** é uma plataforma de estudos online, onde é possível conectar alunos com professores.
 
-Esse projeto foi proposto durante a **Next Level Week #2** na *trilha Discovery (confira a Trilha OmniStack [clicando Aqui](https://github.com/abner-starkasty/Proffy-Typescript))*, lecionado pela **@Rocketseat**. O projeto foi desenvolvido em diversas etapas conforme o decorrer do evento, com o objetivo de apresentar os principais pontos de um projeto real desenvolvido na stack JavaScript.
+O professor que deseja **Ensinar** cadastra suas informações na plataforma. Dessa forma seu perfil irá ficar disponível para o aluno que deseja **Estudar**. Este por sua vez, pode entrar na plataforma e filtrar os professores por Matéria, Dias da semana e Horário.
+
+Esse projeto foi desenvolvido em cima de JS Vanilla afim fortalecer habilidades na linguagem.
+
+> **IMPORTANTE: Esse projeto foi desenvolvido também em TypeScript com React, NodeJs e React Native. Uma API Rest com versão frontend Web e Mobile, com funcionalidades maiores e mais complexas. Caso queira conferir [clique aqui](https://github.com/abner-starkasty/Proffy-TS).**
 
 Neste projeto foi utilizado a metodologia 📲 **Mobile First.** 📲
 
